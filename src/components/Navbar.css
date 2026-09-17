@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  height: 100px;
+  height: 10vh;
   width: 100vw;
   position: sticky;
   top: 0;
@@ -14,47 +14,17 @@
 }
 
 #navbarH1 {
-  background: -webkit-linear-gradient(#83009D, #714EED);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#83009D, #714EED);;
+  background-clip: text;
+  color: transparent;
   font-size: 60px;
   margin: 0;
   padding: 0;
   flex-grow: 5;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 3px;
 }
 
 .buttons {
+  
   flex-grow: 2;
-}
-
-.navbarButtons {
-  background-color: #83009D;
-  height: 145px;
-  width: 65px;
-  font-size: 25px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  letter-spacing: 1.5px;
-  color: white;
-  padding: 20px;
-  border-radius: 5px;  
-  margin: 15px;
-  transition: background-color 0.2s;
-}
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-  background-color: #714EED;
-}
-
-a:active {
-  text-decoration: none;
 }

@@ -1,125 +1,41 @@
-.bannerBackground {
-  background-image: url("/img/logov1/logo.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-height: calc(100vh - 100px);
-  padding: 0 20px 40px 20px;  
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
 .banner {
+  background-image: url("/src/assets/bannerimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 90vh;
+  backdrop-filter: blur(6px);
+  padding-top: 10vh ;
+}
+
+
+h2{
+  font-size: 50px !important ;
+}
+
+
+
+.banner>div:nth-child(2){
+  padding: 5vh 6vw;
   width: 50vw;
-  margin-right: calc(-50vw + 50%);
-  background-color: #5693EB;
-  height: 10vh;  
-  display: flex;
-  align-items: center;    
-  justify-content: center; 
-}
-
-h1 {
+  padding-left: 15vw;
+  background-color: #714EED;
+  align-content: center;
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin: 0;               
-  text-align: center;
+  border-radius: 0 5px 0 0;
 }
 
-.bannerText {
-  width: min(90%, 800px);
-  font-size: 18px;
-  line-height: 1.6;
-  text-align: justify;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: lightgrey;
-  border-radius: 8px;
-  box-sizing: border-box;
+.banner>div:nth-child(3){
+  background-color: #D8D8D8;
+  padding: 2vh 10vw;
+  width: 50vw;
 }
 
-.CTA {
-  display: block;
-  width: fit-content;
-  align-self: center;  
-  margin-top: 160px;
-  text-align: center;
-  padding: 15px 30px;
-  background-color: #5693EB;
-  border-radius: 10px;
-  border: 2px black solid;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  color: white;          
-  transition: background-color 0.2s ease;
-}
-
-.CTA:hover {
-  background-color: #3b73c4;
+.banner>.button{
+  padding:3vh 3vw;
+  font-size: 30px;
 }
 
 
 
-.szakmaTeruleteiBackground {
-  background-color: #5693EB;
-  min-height: 100vh;
-  padding: 40px 20px;
-}
 
-.szakmaTeruleteiH1 {
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin: 0;               
-  text-align: center;
-  padding: 20px;
-}
-
-.szakmaTeruleteiFlexbox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.szakmaTeruleteiContent {
-  width: 100%;
-  min-height: 250px;
-  background-color: white;
-  border: 2px black solid;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
-}
-
-.szakmaTeruleteiImg {
-  width: 40%;
-  background-color: red;
-  min-height: 100%;
-}
-
-.szakmaTeruleteiInnerFlexbox {
-  width: 60%;
-  padding: 20px;
-  background-color: grey;
-  box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-  .szakmaTeruleteiContent {
-    flex-direction: column;
-  }
-
-  .szakmaTeruleteiImg {
-    width: 100%;
-    height: 200px;
-  }
-
-  .szakmaTeruleteiInnerFlexbox {
-    width: 100%;
-  }
-}
