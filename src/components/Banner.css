@@ -1,0 +1,125 @@
+.bannerBackground {
+  background-image: url("/img/logov1/logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: calc(100vh - 100px);
+  padding: 0 20px 40px 20px;  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.banner {
+  width: 50vw;
+  margin-right: calc(-50vw + 50%);
+  background-color: #5693EB;
+  height: 10vh;  
+  display: flex;
+  align-items: center;    
+  justify-content: center; 
+}
+
+h1 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;               
+  text-align: center;
+}
+
+.bannerText {
+  width: min(90%, 800px);
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: lightgrey;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.CTA {
+  display: block;
+  width: fit-content;
+  align-self: center;  
+  margin-top: 160px;
+  text-align: center;
+  padding: 15px 30px;
+  background-color: #5693EB;
+  border-radius: 10px;
+  border: 2px black solid;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;          
+  transition: background-color 0.2s ease;
+}
+
+.CTA:hover {
+  background-color: #3b73c4;
+}
+
+
+
+.szakmaTeruleteiBackground {
+  background-color: #5693EB;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.szakmaTeruleteiH1 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;               
+  text-align: center;
+  padding: 20px;
+}
+
+.szakmaTeruleteiFlexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.szakmaTeruleteiContent {
+  width: 100%;
+  min-height: 250px;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.szakmaTeruleteiImg {
+  width: 40%;
+  background-color: red;
+  min-height: 100%;
+}
+
+.szakmaTeruleteiInnerFlexbox {
+  width: 60%;
+  padding: 20px;
+  background-color: grey;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .szakmaTeruleteiContent {
+    flex-direction: column;
+  }
+
+  .szakmaTeruleteiImg {
+    width: 100%;
+    height: 200px;
+  }
+
+  .szakmaTeruleteiInnerFlexbox {
+    width: 100%;
+  }
+}
