@@ -2,7 +2,8 @@ import "./Fields.css";
 
 function Fields() {
   return (
-    <div className="szakmaTeruleteiBackground">
+    <div id="fields">
+      <div className="szakmaTeruleteiBackground"></div>
       <h1 className="szakmaTeruleteiH1">A szakma területei</h1>
       <div className="szakmaTeruleteiFlexbox">
         <div className="szakmaTeruleteiContent">
@@ -28,6 +29,33 @@ function Fields() {
         </div>
       </div>
     </div>
+
+    // <div className="szakmaTeruleteiBackground">
+    //   <h1 className="szakmaTeruleteiH1">A szakma területei</h1>
+    //   <div className="szakmaTeruleteiFlexbox">
+    //     <div className="szakmaTeruleteiContent">
+    //       <div className="szakmaTeruleteiImg"></div>
+    //       <div className="szakmaTeruleteiInnerFlexbox">
+    //         <div className="szakmaTeruleteiH1"></div>
+    //         <div className="szakmaTeruleteiText"></div>
+    //       </div>
+    //     </div>
+    //     <div className="szakmaTeruleteiContent">
+    //       <div className="szakmaTeruleteiInnerFlexbox">
+    //         <div className="szakmaTeruleteiH1"></div>
+    //         <div className="szakmaTeruleteiText"></div>
+    //       </div>
+    //       <div className="szakmaTeruleteiImg"></div>
+    //     </div>
+    //     <div className="szakmaTeruleteiContent">
+    //       <div className="szakmaTeruleteiImg"></div>
+    //       <div className="szakmaTeruleteiInnerFlexbox">
+    //         <div className="szakmaTeruleteiH1"></div>
+    //         <div className="szakmaTeruleteiText"></div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   );
 }
 

@@ -2,7 +2,7 @@ import "./Banner.css";
 
 function Banner() {
   return (
-    <div>
+    <div id="bannerContainer">
       
       <div className="banner">
         <div className="blur"></div>

@@ -1,3 +1,7 @@
+#bannerContainer{
+  padding-bottom: 10vh;
+}
+
 .banner {
   /* background-image: url("/src/assets/bannerimg.png"); */
   background-repeat: no-repeat;
@@ -5,6 +9,7 @@
   width: 100vw;
   height: 90vh;
   backdrop-filter: blur(6px);
+  
 }
 
 .blur{
@@ -50,6 +55,7 @@ h2{
 
 .banner>div:last-child>.button{
   margin-left: 25vw;
+  margin-bottom: 5vh;
   padding:3vh 3vw;
   font-size: 30px;
 }
