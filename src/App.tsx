@@ -4,6 +4,9 @@ import Banner from "./components/Banner";
 import Carreer from "./components/Carreer";
 import Fields from "./components/Fields";
 
+import Footer from "./components/Footer";
+
+
 function App() {
   return (
     <>
