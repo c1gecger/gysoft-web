@@ -39,10 +39,13 @@ h1 {
 .oszlop h3 {
   margin-top: 0;
   margin-bottom: 1.25rem;
-  font-size: 1.25rem;
-  color: #0f172a;
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
   border-bottom: 2px solid #e2e8f0;
   padding-bottom: 0.5rem;
+  text-align: center;
 }
 
 /* ikonhoz kell: */
@@ -50,11 +53,14 @@ h1 {
 ul {
   list-style: none;
   padding-left: 0;
+  background-color: #d8d8d8;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 
 li {
   position: relative;
-  padding-left: 25px;
+  padding-left: 35px;
   margin-bottom: 8px;
 }
 
@@ -65,8 +71,8 @@ li::before {
   top: 50%;
   transform: translateY(-50%);
 
-  height: 16px;
-  width: 16px;
+  height: 26px;
+  width: 26px;
 
   background-image: url("../../img/check.png");
   background-size: contain;
