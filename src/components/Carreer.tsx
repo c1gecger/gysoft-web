@@ -1,31 +1,37 @@
 import "./Carreer.css";
 
 const Carreer = () => {
-  const elonyok = ["Valami", "Valami"];
-  const hatranyok = ["Valami", "Valami"];
-  const hasznosTulajdonsagok = ["Valami", "Valami"];
+  const sections = [
+    {
+      title: "Előnyök",
+      items: ["Valami", "Valami"],
+    },
+    {
+      title: "Hátrányok",
+      items: ["Valami", "Valami"],
+    },
+    {
+      title: "Hasznos tulajdonságok",
+      items: ["Valami", "Valami"],
+    },
+  ];
 
   return (
-    <>
+    <main>
       <h1>Pályaválasztás</h1>
       <div className="container">
-        <ul>
-          {elonyok.map((item, _i) => {
-            return <li key={_i}>{item}</li>;
-          })}
-        </ul>
-        <ul>
-          {hatranyok.map((item, _i) => {
-            return <li key={_i}>{item}</li>;
-          })}
-        </ul>
-        <ul>
-          {hasznosTulajdonsagok.map((item, _i) => {
-            return <li key={_i}>{item}</li>;
-          })}
-        </ul>
+        {sections.map((section, index) => (
+          <section key={index} className="oszlop">
+            <h3>{section.title}</h3>
+            <ul>
+              {section.items.map((item, itemIdx) => (
+                <li key={itemIdx}>{item}</li>
+              ))}
+            </ul>
+          </section>
+        ))}
       </div>
-    </>
+    </main>
   );
 };
 

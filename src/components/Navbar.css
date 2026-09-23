@@ -14,7 +14,7 @@
 }
 
 #navbarH1 {
-  background-image: linear-gradient(#83009D, #714EED);
+  background-image: linear-gradient(#83009d, #714eed);
   background-clip: text;
   color: transparent;
   font-size: 60px;
@@ -29,10 +29,10 @@
   flex-grow: 2;
 }
 
-#elvalaszto{
+#elvalaszto {
   width: 0.3vw;
   height: 8vh;
-background-image: linear-gradient(#83009D, #714EED);
-margin-right: 2vw;
-border-radius: 5px;
+  background-image: linear-gradient(#83009d, #714eed);
+  margin-right: 2vw;
+  border-radius: 5px;
 }
