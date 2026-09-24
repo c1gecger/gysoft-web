@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import Footer from "./Footer.tsx"
 
 function Navbar() {
   const buttons = [
@@ -16,7 +17,7 @@ function Navbar() {
     },
     {
       title: "Kapcsolat",
-      href: "/kapcsolat",
+      href: "#kapcsolat",
     },
   ];
   return (

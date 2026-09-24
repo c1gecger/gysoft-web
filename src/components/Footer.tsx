@@ -59,7 +59,7 @@ const footerColumns = [
 
 function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer" id="kapcsolat">
             <div className="oszlopok"></div>
 
             <div className="oszlopok">
