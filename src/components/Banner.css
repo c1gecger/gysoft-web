@@ -53,6 +53,7 @@ h2{
   padding: 5vh 2vw 5vh 15vw;
   width: 50%;
   margin-bottom: 5vh;
+  border-radius: 0 0 5px 0;
 }
 
 .banner>div:last-child>.button{
