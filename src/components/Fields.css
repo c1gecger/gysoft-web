@@ -22,17 +22,19 @@
   display: grid;
   align-items: center;
   gap: 30px;
+  
 }
 
 .szakmaTeruleteiContent {
   width: 70%;
   height: 25vh;
-  border: 2px black solid;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
   overflow: hidden;
+  background-color: #d8d8d8;
 }
+
 
 .szakmaTeruleteiContent:nth-child(odd) {
   justify-self: end;
@@ -40,14 +42,16 @@
 
 .szakmaTeruleteiImg {
   width: 40%;
-  background-color: red;
-  height: 100%;
+  background-size: cover;
+  height: 90%;
+  margin: 1%;
+  border-radius: 5px;
 }
+
 
 .szakmaTeruleteiInnerFlexbox {
   width: 60vw;
   padding: 20px;
-  background-color: grey;
   box-sizing: border-box;
 }
 
@@ -56,6 +60,24 @@
   top: -95vh;
   left: 0;
   margin: 0 5vw;
+  
+}
+
+.szakmaTeruleteiContent:first-child>.szakmaTeruleteiImg{
+  background-image: url("../assets/appDev.jpg");
+}
+.szakmaTeruleteiContent:nth-child(2)>.szakmaTeruleteiImg{
+  background-image: url("../assets/WebDev.jpg");
+}
+.szakmaTeruleteiContent:last-child>.szakmaTeruleteiImg{
+  background-image: url("../assets/Database.jpg");
+}
+
+.szakmaTeruleteiH1{
+  text-align: center;
+  background-color: #714EED;
+  font-size: 30px;
+  color: white;
 }
 
 /* @media (max-width: 768px) {

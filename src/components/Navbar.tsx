@@ -1,5 +1,4 @@
 import "./Navbar.css";
-import Footer from "./Footer.tsx"
 
 function Navbar() {
   const buttons = [
