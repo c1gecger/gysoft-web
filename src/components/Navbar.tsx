@@ -5,15 +5,15 @@ function Navbar() {
   const buttons = [
     {
       title: "Szakmáról",
-      href: "/szakmarol",
+      href: "#szakmarol",
     },
     {
       title: "Szakterületek",
-      href: "/itteruletek",
+      href: "#fields",
     },
     {
       title: "Előnyök",
-      href: "/elonyok",
+      href: "#elonyok",
     },
     {
       title: "Kapcsolat",

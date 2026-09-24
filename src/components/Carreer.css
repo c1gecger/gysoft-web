@@ -78,3 +78,6 @@ li::before {
   background-size: contain;
   background-repeat: no-repeat;
 }
+main{
+  padding: 5vh 5vw;
+}

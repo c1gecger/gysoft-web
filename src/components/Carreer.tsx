@@ -17,7 +17,7 @@ const Carreer = () => {
   ];
 
   return (
-    <main>
+    <main id="elonyok">
       <h1>Pályaválasztás</h1>
       <div className="container">
         {sections.map((section, index) => (
