@@ -1,0 +1,67 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2vw;
+  padding: 4vh 3vw;
+  background: linear-gradient(90deg, #83009d 0%, #714eed 100%);
+  color: white;
+}
+
+.oszlopok {
+  flex: 1;
+  min-width: 160px;
+}
+
+.oszlopok:first-child,
+.oszlopok:last-child {
+  flex: 0.7;
+}
+
+.footerTitle {
+  margin: 0 0 1rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.footerText {
+  margin: 0.35rem 0;
+  color: white;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.socialIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.socialIcon img {
+  width: 62%;
+  height: 62%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.18));
+}
+
+.socialIcon:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.24);
+}

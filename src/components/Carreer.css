@@ -1,0 +1,80 @@
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.oszlop {
+  flex-grow: 1;
+  min-width: calc(100% / 3);
+  background-color: #83009d;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.oszlop:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.oszlop h3 {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* ikonhoz kell: */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  background-color: #d8d8d8;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 8px;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  height: 26px;
+  width: 26px;
+
+  background-image: url("../../img/check.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
