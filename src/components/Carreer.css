@@ -1,7 +1,5 @@
 .career-section {
-  padding: clamp(4rem, 8vw, 7rem) 5vw;
-  background: #ffffff;
-  color: #29243a;
+  height: 100vh;
 }
 
 @keyframes career-gradient {
@@ -17,142 +15,105 @@
 }
 
 .career-content {
-  width: min(1180px, 100%);
+  padding-top: 5vh;
+  width: 100%;
   margin: 0 auto;
 }
 
-.career-eyebrow {
-  margin: 0 0 0.75rem;
-  color: #83009d;
-  font-family: Roboto, sans-serif;
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 .career-section h1 {
   margin: 0;
+  margin-top: 2vh;
   background-image: linear-gradient(#83009d, #714eed);
   background-clip: text;
   color: transparent;
   font-family: Impact, sans-serif;
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
-  font-weight: 400;
-  line-height: 1;
+  font-size: 500%;
   text-align: center;
 }
 
 .career-intro {
-  width: min(650px, 100%);
-  min-height: 3.57rem;
-  margin: 1.25rem auto 3rem;
-  color: #5a5667;
-  font-family: Roboto, sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.7;
+  border-bottom: #83009d 2px solid;
   text-align: center;
+  margin: auto;
+  width: fit-content;
+  color: #83009d;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 130%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .career-grid {
+  margin-top: 7vh;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(1rem, 2.5vw, 2rem);
+  justify-content: center;
+  grid-template-columns: 25vw 25vw 25vw;
+  gap: 5vw;
   align-items: stretch;
   box-sizing: border-box;
 }
 
 .career-card {
   display: flex;
-  min-width: 0;
+  width: 25vw;
+  height: 70vh;
   flex-direction: column;
-  padding: clamp(1.25rem, 2.5vw, 2rem);
+  padding: 2vh 2vw;
   background: linear-gradient(145deg, #83009d, #714eed);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 12px;
-  box-shadow: 0 10px 28px rgba(43, 34, 64, 0.09);
+  border: 1px solid rgba(216, 216, 216, 0.25);
+  border-radius: 5px;
+  box-shadow: 0 10px 28px rgba(43, 34, 64, 0);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-sizing: border-box;
 }
 
 .career-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 16px 32px rgba(43, 34, 64, 0.14);
+  box-shadow: 0 16px 32px rgba(43, 34, 64, 0.5);
 }
 
 .career-card h3 {
-  min-height: 2.4rem;
-  margin: 0 0 1.25rem;
-  padding-bottom: 0.9rem;
+  padding-bottom: 1vh;
+  margin-bottom:3vh;
   color: white;
   border-bottom: 3px solid white;
-  font-family: Roboto, sans-serif;
-  font-size: clamp(1.3rem, 2vw, 1.7rem);
-  font-weight: 700;
-  line-height: 1.2;
+  letter-spacing: 1.5px;
+  font-size: 35px;
 }
 
 .career-list {
+  align-items: center;
+  height: 90%;
   display: grid;
   gap: 0.95rem;
-  margin: 0;
-  padding: 0;
   list-style: none;
   background: white;
-  border-radius: 10px;
-  padding: 1.25rem;
+  border-radius: 5px;
+  padding: 1vw 1vh;
 }
 
 .career-list li {
   position: relative;
-  padding-left: 1.75rem;
-  color: #494556;
+  padding-left: 2vw;
+  font-size: 20px;
   font-family: Roboto, sans-serif;
-  font-size: 1rem;
-  line-height: 1.55;
 }
 
 .career-list li::before {
   position: absolute;
-  top: 0.15rem;
+  top: .5vh;
   left: 0;
-  width: 1.15rem;
-  height: 1.15rem;
   color: #714eed;
   content: "✓";
-  font-size: 1.15rem;
-  font-weight: 700;
-  line-height: 1.15rem;
-  text-align: center;
+  font-weight: bold;
 }
 
 @media (max-width: 850px) {
-  .career-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .career-card {
-    width: 100%;
-  }
+ 
 }
 
 @media (max-width: 480px) {
-  .career-section {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
-
-  .career-intro {
-    margin-bottom: 2rem;
-    font-size: 0.98rem;
-  }
-
-  .career-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .career-card h3 {
-    min-height: 0;
-  }
+ 
 }
