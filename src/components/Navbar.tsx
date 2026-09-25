@@ -33,11 +33,9 @@ function Navbar() {
         {buttons.map((item, _i) => {
           return (
             <>
-              <div className="button">
                 <a key={_i} href={item.href} className="navbarButtons">
-                  {item.title}
+                  <div className="button">{item.title} </div>
                 </a>
-              </div>
             </>
           );
         })}

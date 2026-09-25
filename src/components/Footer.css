@@ -6,7 +6,21 @@
   padding: 4vh 3vw;
   background: linear-gradient(90deg, #83009d 0%, #714eed 100%);
   color: white;
+  animation: gradient 20s ease-in-out infinite;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 50% 50%;
+  }
+}
+
 
 .oszlopok {
   flex: 1;

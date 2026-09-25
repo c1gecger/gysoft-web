@@ -51,12 +51,12 @@ h2{
   background-color: #D8D8D8;
   text-align: right;
   padding: 5vh 2vw 5vh 15vw;
-  width: 50%;
+  width: 60%;
   margin-bottom: 5vh;
   border-radius: 0 0 5px 0;
 }
 
-.banner>div:last-child>.button{
+.banner>div:last-child>a{
   margin-left: 25vw;
   margin-bottom: 100vh;
   padding:3vh 3vw;
