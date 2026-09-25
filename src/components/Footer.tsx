@@ -14,7 +14,7 @@ const socialLinks = [
     {
         name: "Network",
         url: "https://www.vasvari.hu/",
-        image: "./img/socialmedia_logos/Network.png",
+        image: "./img/socialmedia_logos/vpFekete.svg",
     },
 ];
 

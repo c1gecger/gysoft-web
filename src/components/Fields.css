@@ -6,7 +6,7 @@
 
 .szakmaTeruleteiBackground {
   background: linear-gradient(#83009D, #714EED, #83009D, #714EED);
-  background-size: 400% 400%; /* ← EZ HIÁNYZOTT: így lesz mit mozgatni! */
+  background-size: 400% 400%;
   position: relative;
   left: 0;
   top: 0;
@@ -32,18 +32,18 @@
 .fieldsContent h1{
   text-align: center;
   color: white;
-  margin-bottom:5vh ;
+  margin-bottom:2vh ;
 }
 
 .szakmaTeruleteiFlexbox {
   display: grid;
   align-items: center;
-  gap: 30px;
+  gap: 5%;
   
 }
 
 .szakmaTeruleteiContent {
-  width: 70%;
+  width: 80%;
   height: 25vh;
   border-radius: 10px;
   display: flex;
@@ -71,14 +71,15 @@
   width: 40%;
   background-size: cover;
   height: 90%;
-  margin: 1%;
+  margin: 1vh 1vw;
   border-radius: 5px;
 }
 
 
 .szakmaTeruleteiInnerFlexbox {
   width: 70vw;
-  padding: 20px;
+  padding: 2vh 2vw;
+  padding-left: 10vw;
   box-sizing: border-box;
 }
 
