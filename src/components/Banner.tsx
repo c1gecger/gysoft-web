@@ -12,30 +12,12 @@ function Banner() {
           </div>
           <div>
             <p className="bannerText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              atque minus tenetur accusantium, praesentium, eius velit deleniti
-              placeat et, a adipisci qui iste nisi distinctio voluptate corrupti
-              provident. In, sequi? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Possimus atque minus tenetur accusantium,
-              praesentium, eius velit deleniti placeat et, a adipisci qui iste nisi
-              distinctio voluptate corrupti provident. In, sequi? Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Possimus atque minus tenetur
-              accusantium, praesentium, eius velit deleniti placeat et, a adipisci
-              qui iste nisi distinctio voluptate corrupti provident. In, sequi?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              atque minus tenetur accusantium, praesentium, eius velit deleniti
-              placeat et, a adipisci qui iste nisi distinctio voluptate corrupti
-              provident. In, sequi? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Possimus atque minus tenetur accusantium,
-              praesentium, eius velit deleniti placeat et, a adipisci qui iste nisi
-              distinctio voluptate corrupti provident. In, sequi?
+              A szoftverfejlesztő és -tesztelő szakma a digitális világ igazi „építész-ellenőr” párosa: a fejlesztő az, aki kitalálja és kódokból megépíti a legmenőbb appokat, játékokat és weboldalakat, míg a tesztelő a profi Hibavadász, aki addig nyomkodja és nyúzza a programot, amíg meg nem találja benne a legkisebb hibát is. Olyanok, mint egy szupercsapat – az egyik megalkotja a dolgokat, a másik pedig gondoskodik róla, hogy minden simán és akadásmentesen működjön, amikor a felhasználók a kezükbe veszik. Ebben a szakmában nem kell csodabogárnak lenned, de a jó logikai gondolkodás, a kíváncsiság, a rejtvényfejtő alkat és a csapattagként való együttműködés mindent visz!
             </p>
           </div>
-          <div className="button">
-            <a href="#fields">
-              Vágjunk bele!
-            </a>
-          </div>
+          <a href="#fields" className="button">
+            Vágjunk bele!
+          </a>
         </div>
         </div>
     </div>
