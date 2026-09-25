@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   backdrop-filter: blur(6px);
   margin: 0;
   
@@ -17,7 +17,7 @@
   background-image: url("/src/assets/bannerimg.png");
   position: relative;
   left: 0;
-  top: 0;
+  top: 10;
   width: 100%;
   height: 100%;
   z-index: 0;
@@ -30,7 +30,7 @@ h2{
 
 .banner>div:last-child{
   position: relative;
-  top: -90vh;
+  top: -80vh;
   left: 0;}
 
 /* .banner>div:last-child>div{
@@ -51,7 +51,7 @@ h2{
   background-color: #D8D8D8;
   text-align: right;
   padding: 5vh 2vw 5vh 15vw;
-  width: 60%;
+  width: 50%;
   margin-bottom: 5vh;
   border-radius: 0 0 5px 0;
 }
