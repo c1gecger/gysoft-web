@@ -11,8 +11,8 @@ function Navbar() {
       href: "#fields",
     },
     {
-      title: "Előnyök",
-      href: "#elonyok",
+      title: "Pályaválasztás",
+      href: "#palyavalasztas",
     },
     {
       title: "Kapcsolat",
